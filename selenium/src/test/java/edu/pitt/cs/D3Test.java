@@ -14,6 +14,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+//chromeoptions
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.Dimension;
@@ -29,6 +31,7 @@ import java.time.Duration;
 import java.util.*;
 import java.net.MalformedURLException;
 import java.net.URL;
+
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class D3Test {
   private WebDriver driver;
