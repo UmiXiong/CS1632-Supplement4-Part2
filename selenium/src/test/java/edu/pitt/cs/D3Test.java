@@ -39,6 +39,7 @@ public class D3Test {
 //    System.setProperty("webdriver.gecko.driver", "/Users/xiongying/bin/geckodriver");
 ////    driver = new FirefoxDriver();
 //      driver = new ChromeDriver();
+//      redo
     ChromeOptions options = new ChromeOptions();
     options.addArguments("--headless");
     driver = new ChromeDriver(options);
